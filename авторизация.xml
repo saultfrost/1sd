@@ -1,0 +1,53 @@
+<xml xmlns="http://www.w3.org/1999/xhtml" collection="true">
+  <block type="tick_analysis" id="W~.SySAz9pHVDtUABt!Y">
+    <statement name="TICKANALYSIS_STACK">
+      <block type="controls_if" id="Y[4iT]Rh9#/N7x4B*n9s">
+        <value name="IF0">
+          <block type="logic_operation" id=";9BMA@D16U3Qr_Omkp*`" inline="false">
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_compare" id="Xl%!;Z7w)GOB-+U8^V44">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="variables_get" id="iv||u%gJSB_mQGq6R-YW">
+                    <field name="VAR" id="Kl4hA7^*+:d-C3#gd1|T" variabletype="">login</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="text" id="8?D}N[Q,_{sI#[{I!|nm">
+                    <field name="TEXT">log</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_compare" id="Hmyn(r4ClfNzO9l:l*1!">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="variables_get" id="F#kGV=KKWk/xY+9j@jlo">
+                    <field name="VAR" id="]J]6F_:}My6Ns(M*}H7j" variabletype="">password</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="text" id="4^k6._K0TE$q5x9nADfh">
+                    <field name="TEXT">passw</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="variables_set" id="@9SULmv+mHj+M%[yk(7d">
+            <field name="VAR" id="OTw/1%rHJ[t^5mfXf9Z+" variabletype="">trade</field>
+            <value name="VALUE">
+              <block type="logic_boolean" id="=}Sc~4:_0im`55vdBjg(">
+                <field name="BOOL">TRUE</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>
